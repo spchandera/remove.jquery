@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #box{
+        width: 500px;
+        height: 150px;
+        background-color: chartreuse;
+      }
+    </style>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+</head>
+<body>
+
+    <div id="box">
+        <h1>empty box </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint doloribus veniam quis sit porro delectus. Maxime qui quibusdam nulla! Consectetur odio corrupti laborum tempore ipsum ut! Maiores atque error ipsam!</p>
+    </div>
+   <button id="remove">
+    remove btn
+   </button>
+    <script>
+        $('#remove').click(function(){
+            $('#box').remove()
+        })
+    </script>
+
+    
+</body>
+</html>
